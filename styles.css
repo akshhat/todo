@@ -16,7 +16,7 @@ div.card-body {
 	justify-content: center;
 }
 
-.active-item {
-	transform: scale(1.015);
+li:hover {
+	transform: scale(1.01);
 	background-color: #f4f4f4;
 }

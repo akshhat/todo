@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Todo App</title>
+	<title>ToDo</title>
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles.css">
@@ -9,16 +9,16 @@
 <body>
 	<!-- Navigation Bar -->
 	<nav class="navbar navbar-dark bg-primary">
-		<a class="navbar-brand" href="#"><i class="fas fa-check-square"></i>  To Do</a>
-		<form class="form-inline my-2 my-lg-0" id="search">
-			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" size="35">
+		<a class="navbar-brand" href="#"><i class="fas fa-check-square"></i>  ToDo</a>
+		<form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" size="35" id="search">
 		</form>
 	</nav>
 	<br>
 	<div class="card container">
 		<div class="card-body">
 			<form class="form-inline my-2 my-lg-0" id="new-task">
-				<input class="form-control mr-sm-2" type="search" placeholder="New Task" aria-label="New Task">
+				<input class="form-control mr-sm-2" type="search" placeholder="New Task" aria-label="New Task" id="task-box">
 				<button class="btn btn-outline-primary type="submit">Add</button>
 			</form>
 			<br>
@@ -31,6 +31,5 @@
 		</div>
 	</div>
 	<script type="text/javascript" src="app.js"></script>
-	<script src="https://kit.fontawesome.com/bb20298a0f.js" crossorigin="anonymous"></script>
 </body>
 </html>
