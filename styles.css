@@ -1,0 +1,12 @@
+* {
+	font-family: 'Work Sans', sans-serif;
+}
+
+#search {
+	margin: auto;
+}
+
+#new-task {
+	display: flex;
+	justify-content: center;
+}
