@@ -15,7 +15,7 @@ function addItem(e) {
 		liNew.appendChild(document.createTextNode(taskBox.value));
 		liNew.classList.add('list-group-item');
 		let delBtn = document.createElement('button');
-		delBtn.innerHTML = '<i class="far fa-trash-alt"></i>';
+		delBtn.innerHTML = 'X';
 		delBtn.className = 'btn btn-danger delete float-right';
 		liNew.appendChild(delBtn);
 		ul.appendChild(liNew);
