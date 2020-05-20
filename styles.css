@@ -6,7 +6,17 @@
 	margin: auto;
 }
 
+div.card-body {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
 #new-task {
 	display: flex;
 	justify-content: center;
+}
+
+.active-item {
+	transform: scale(1.015);
+	background-color: #f4f4f4;
 }
